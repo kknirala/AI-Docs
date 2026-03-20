@@ -344,4 +344,3 @@ Choice depends on cost, privacy, and performance.
 ________________________________________
 90. Why is cost optimization critical in GenAI apps?
 LLM usage scales quickly (tokens, API calls). Without optimization, costs can become very high. Techniques include caching, batching, and model selection.
-
