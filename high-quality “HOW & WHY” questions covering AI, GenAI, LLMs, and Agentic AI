@@ -1,0 +1,107 @@
+SECTION 1: AI Fundamentals (How & Why)
+1.	How does traditional AI differ from machine learning?
+2.	Why is data the most critical component in AI systems?
+3.	How do supervised and unsupervised learning differ in real-world use?
+4.	Why do AI models require large datasets to perform well?
+5.	How does overfitting occur and why is it dangerous?
+6.	Why is bias introduced in AI systems?
+7.	How does model generalization work?
+8.	Why is feature engineering important in classical ML?
+9.	How do neural networks mimic human brain behavior?
+10.	Why do deeper networks perform better (or worse)?
+________________________________________
+🤖 SECTION 2: Generative AI (GenAI)
+11.	How does Generative AI differ from traditional predictive AI?
+12.	Why is GenAI able to create new content instead of just classifying?
+13.	How do diffusion models generate images from noise?
+14.	Why are GANs trained with two competing networks?
+15.	How does GenAI learn style, tone, and structure?
+16.	Why is GenAI prone to hallucinations?
+17.	How does temperature affect output randomness?
+18.	Why does prompt design significantly impact output quality?
+19.	How does fine-tuning improve GenAI performance?
+20.	Why is alignment (RLHF) required in GenAI systems?
+________________________________________
+🧩 SECTION 3: LLM (Large Language Models)
+21.	How do Large Language Models process text internally?
+22.	Why are tokens used instead of full words?
+23.	How does next-token prediction actually generate meaningful text?
+24.	Why do LLMs require billions of parameters? 
+25.	How does context window affect LLM performance?
+26.	Why do LLMs forget earlier parts of long conversations?
+27.	How does pre-training differ from fine-tuning? 
+28.	Why do LLMs hallucinate facts?
+29.	How do embeddings capture semantic meaning?
+30.	Why is vector similarity important in LLM systems?
+31.	How does attention mechanism work in transformers? 
+32.	Why is self-attention better than RNNs?
+33.	How do transformers process entire sequences in parallel? 
+34.	Why are transformers the backbone of modern LLMs?
+35.	How do LLMs perform reasoning without true understanding?
+________________________________________
+🔎 SECTION 4: Advanced LLM Concepts
+36.	How does prompt engineering influence model output?
+37.	Why does chain-of-thought prompting improve reasoning?
+38.	How does few-shot learning work in LLMs?
+39.	Why is zero-shot capability important?
+40.	How do instruction-tuned models differ from base models?
+41.	Why do LLMs struggle with math and logic?
+42.	How does sampling (top-k, top-p) impact generation?
+43.	Why do LLM outputs vary for the same input?
+44.	How does token probability distribution guide generation?
+45.	Why is latency a challenge in large models?
+________________________________________
+📚 SECTION 5: RAG (Retrieval-Augmented Generation)
+46.	How does RAG improve LLM accuracy? 
+47.	Why is external data needed when LLMs are already trained?
+48.	How do vector databases enable semantic search?
+49.	Why is chunking important in RAG pipelines?
+50.	How does embedding similarity retrieval work?
+51.	Why does RAG reduce hallucination?
+52.	How does RAG handle real-time knowledge updates?
+53.	Why is RAG preferred over retraining models?
+________________________________________
+🧠 SECTION 6: Agentic AI (AI Agents)
+54.	How do AI agents differ from simple chatbots?
+55.	Why do agents require planning and reasoning loops?
+56.	How does the ReAct (Reason + Act) framework work? 
+57.	Why do agents need tool access (APIs, DBs, web)?
+58.	How do agents decide which tool to use?
+59.	Why is memory important in agentic systems?
+60.	How do agents maintain short-term vs long-term memory? 
+61.	Why do agent workflows require orchestration frameworks?
+62.	How do multi-step tasks get decomposed by agents?
+63.	Why is human-in-the-loop needed for agents?
+64.	How do agents handle failures and retries?
+65.	Why is cost a major concern in agentic systems? 
+________________________________________
+🤝 SECTION 7: Multi-Agent Systems
+66.	How do multiple AI agents collaborate?
+67.	Why is coordination difficult in multi-agent systems?
+68.	How do agents share context or memory?
+69.	Why can agents conflict with each other?
+70.	How does task delegation work across agents?
+71.	Why is governance required in agent ecosystems?
+72.	How do agent societies scale complex workflows?
+________________________________________
+⚠️ SECTION 8: Limitations & Risks
+73.	Why do LLMs hallucinate incorrect answers?
+74.	How does bias propagate in GenAI systems?
+75.	Why are LLM outputs non-deterministic?
+76.	How do prompt injections attack LLM systems?
+77.	Why is security critical in agentic AI?
+78.	How do we evaluate LLM performance?
+79.	Why is explainability difficult in deep learning?
+80.	How can hallucinations be reduced in production?
+________________________________________
+🚀 BONUS: System Design & Real-World Thinking
+81.	How would you design a production-grade AI assistant?
+82.	Why should you combine LLM + RAG + Agents?
+83.	How do you scale GenAI systems for millions of users?
+84.	Why is latency vs accuracy trade-off important?
+85.	How would you debug an LLM-based system?
+86.	Why is observability important in AI pipelines?
+87.	How do you evaluate ROI of AI systems?
+88.	Why is fine-tuning sometimes avoided in enterprises?
+89.	How do you choose between open-source vs API models?
+90.	Why is cost optimization critical in GenAI apps?
