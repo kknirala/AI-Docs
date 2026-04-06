@@ -1,0 +1,44 @@
+1. What types of agentic systems are there?
+  One differentiating feature of agentic systems is how they are “orchestrated” i.e. how do the agents carry out their tasks. Do they carry them out sequentially, in parallel, do they have autonomy to decide which tasks to runs or is it more prescribed?
+  Some of the current patterns:
+  1. Supervisor — where a central agent controls which of the sub-agents do what tasks etc.
+  2. Sequential — where agents do their tasks linearally i.e. one after each other.
+  3. Parallel — as you’d expect from the name, agents can run tasks at the same time.
+  4. Swarm — a decentralised pattern, where agents work without a central command agent.
+  5. Hierarchical — different layers of supervisor and sub-agents.
+  6. Handoff — a pattern where an agent may decide to “handoff” the task to another agent (or human)
+  These are actually just the tip of the iceberg. One of my favourite sayings has been for the last few months:
+    “Nobody is an expert in GenAI or AgenticAI”
+-----------
+2. The current main leaders in agentic space:
+  1. LangGraph
+  2. Microsoft Autogen
+  3. Google ADK
+  4. LlamaIndex
+  5. CrewAI
+  6. AgentCore (AWS)
+  7. AgentKit (OpenAI)
+-------
+3. What technologies power the “thinking” layer of modern AI agents?
+    Large Language Models (LLMs): For understanding and generating language, chain-of-thought reasoning.
+    Machine Learning/Deep Learning: For pattern recognition (e.g., in vision sensors) and reinforcement learning.
+    Retrieval-Augmented Generation (RAG): To pull in relevant, up-to-date information from external knowledge sources.
+    Traditional Programming & Logic: For “if-then-else” rules, task planning, and decomposition.
+-------
+4. Can you give a concrete example of how an AI agent works?
+    Yes, a travel booking agent is a good example:
+    
+    Sense: You input your travel dates and destination via text (chatbot) or it reads your calendar.
+    Think:
+    It consults its knowledge base for your preferences (favorite airlines, hotel chains, desire for a running route), real-time data (flight prices, hotel availability), and company policy (travel budget caps, preferred vendors).
+    Its reasoning engine processes all this to find the optimal itinerary that meets all criteria.
+    Act: It autonomously books the flights and hotels by interacting with reservation system APIs and provides you with e-tickets.
+    Feedback: It asks for your rating on the trip or automatically checks if the booking was successful, using that information to improve future recommendations.
+----------
+5. Key Ways Data is Stored and Used for Feedback 
+    Custom Instructions & GPTs: You can instruct a custom GPT to adhere to feedback stored in its "Instructions" or "Knowledge" files. As the agent acts, you can update these instructions to ensure it avoids past mistakes.
+    Conversation Memory: ChatGPT’s ability to recall previous messages in a long chat enables it to "remember" human critiques and improve the output on the second or third attempt.
+    Memory Feature: ChatGPT can directly save information across different chat sessions, allowing it to apply feedback permanently to all future interactions. 
+-------------
+6. 
+ 
