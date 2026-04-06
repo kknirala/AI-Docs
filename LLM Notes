@@ -1,3 +1,20 @@
 1. LLM decides which tools to call with which arguments.
 2. LangCahin will rend this function with argument.
 3. Pydantic is the most widely used data validation library for Python.
+4. Large Language Models (LLMs)
+    LLMs, such as OpenAI’s GPT series or Google’s PaLM, are advanced neural networks trained on vast amounts of text data. Their primary function is to generate coherent and contextually relevant text based on input prompts. These models are incredibly versatile and capable of tasks such as:
+    
+    - Writing essays, articles, or code.
+    - Translating languages.
+    - Summarizing complex texts.
+    - Engaging in conversational AI.
+    
+    Strengths of LLMs:
+    
+    1. Generative Power: LLMs excel at producing fluent and human-like text.
+    2. Broad Knowledge Base: Due to their training on diverse datasets, they can handle a wide range of topics.
+    3. Ease of Use: LLMs require minimal setup and can function independently of additional systems.
+    
+    Limitations of LLMs:
+    1. Knowledge Cutoff: LLMs can only generate information up to their training data’s scope.
+    2. Hallucinations…
