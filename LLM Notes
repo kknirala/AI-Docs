@@ -48,3 +48,102 @@
     
     10 Natural Language Processing
     Last but certainly not least, you need to know quite a bit about natural language processing, aka NLP. LLMs and generative AI aren’t really a field of their own, as they’re both built on NLP principles LLMs are trained on massive datasets of text and code, and they use NLP techniques to understand the meaning of the data and to generate new text. If you don’t have a good understanding of NLP, it will be difficult to understand how LLMs work and how to use them effectively.
+----------------
+6. Step-by-Step Guide: Build, Train & Deploy Your Own LLM Model
+    Components that help LLMs understand and act
+        The LLM architecture and components have several neural network layers that work in tandem to process the text and generate a response according to the prompt entered by the user.
+        
+        1) Embedding layer
+        The input text is received by the embedding layer, one of the important layers of LLM, which creates a vector representation of each word. The vector representation catches the word’s semantic and syntactic meaning and relates it to other words.
+        
+        2) The feedforward layer
+        The feedword layer is really interesting as it helps understand the intent of user input. It is made up of many entirely connected layers that convert the input embeddings and extract higher-level abstractions.
+        
+        3) Recurrent layer
+        The recurrent layer of the AI language model is responsible for decoding all the words in the input text in sequence and capturing the relationship between various words in a single sentence.
+        
+        4) The attention mechanism
+    The attention mechanisms are derived from the human cognitive process. They compare the relevance of different words and tokens in the input sequence and focus only on the relevant part of the input. Together, these are the components that help LLMs understand and act.
+    Various types of large language models (LLMs) for specific use-cases
+    Many kinds of LLMs for customer service automation have been developed so far to fulfill the industry’s specific requirements. This is how you can categorize LLMs based on the sort of tasks they do:
+
+        1) Autoregressive LLMs
+        As the name suggests, autoregressive LLMs are trained to continue the text and give recommendations for the following sequence of words. They are pretty expensive computationally and can also provide irrelevant or monotonous responses.
+        
+        In the e-commerce sector, autoregressive LLMs can be used to provide customers with a personalized shopping experience by suggesting product recommendations based on their preferences.
+        
+        Example: GPT, BLOOM
+        
+        2) Transformer-based LLMs
+        Unlike autoregressive models, which complete your sentence, transformer-based LLMs are one of the various types of Large language models that generate a response to your query. Their deep learning architecture captures long-range dependencies and contextual information.
+        
+        In the e-learning industry, transformer-based LLMs can be used to create intelligent tutoring systems that can generate detailed explanations and answers to student questions.
+        
+        Example: BERT
+        
+        3) Multilingual LLMs
+        LLM for multilingual support systems is a form of cross-lingual model that can understand and respond to text in multiple languages. It can pass on knowledge from one language to another and can be used for machine translations or retrieval of important data.
+        
+        For instance, fintech companies that provide digital banking services can use LLMs to assist customers from diverse cultural and linguistic backgrounds.
+        
+        Example: XLM
+        
+        4) Hybrid
+        Hybrid models are unified language models that combine the power of different architectures, such as transformer-based architecture and recurrent neural networks, to achieve the desired outcome.
+        
+        Example: UniLM
+   What are the hardware requirements for training LLMs?
+        Custom LLMs for businesses ask for an enormous amount of computational resources to train and process large datasets and model architectures. Let us go through the hardware requirements for training LLMs:
+        
+        1) Graphics processing unit (GPU)
+        GPUs are the constitutive part of LLMs and are used to train and run them. Since GPUs can accelerate parallel computations, they are used for deep learning frameworks like TensorFlow and Pytorch for matrix multiplication and neural network training. When you are selecting a GPU, you should definitely compare their memory capacity, processing power, and bandwidth.
+        
+        2) Central Processing Unit (CPU)
+        While your GPUs are doing all the heavy lifting work and neural network computations for your LLM, you need a smart CPU that can manage data processing, model setup, and coordination. Go for a CPU that can give you brilliant multi-threading performance and can be used for concurrently preprocessing large datasets and multiple workloads.
+        
+        3) Memory
+        You must have RAM with high bandwidth that is capable of storing the gradient, architecture, and intermediate values while training large language models or conversational AI agents. As per NVIDIA, you must have at least double the amount of CPU memory to manage buffering competently, i.e. hundreds of gigabytes of RAM.
+        
+        4) Storage
+        The large language model parameters and large datasets demand a lot of storage and servers to host databases. Instead of HDDs, you might want to choose highly capable storage solutions like SSDs, which have quick read and write speeds and can be used for storing and preprocessing data.
+        
+        5) Networking
+        You must have an excellent internet connection to download data sets, establish communication between distributed systems, and share models quickly. Even if LLM parameters can be kept locally, network-attached storage is more advisable for you to back up your data and distribute it to multiple systems.
+        
+        6) Cooling and Power Supply
+        When you train your Generative AI models, they will dissipate a lot of heat, which can be controlled with a custom liquid cooling setup, including radiators, pumps, and tubing. A custom liquid cooling setup will give a boost to the lifespan of your hardware and help it deliver the best performance without the worry of thermal throttling.
+        
+        7) Distributed computing
+        If you are dealing with uncertain workloads and managing infrastructure is becoming difficult, prefer cloud solutions. Cloud platforms like AWS, Microsoft Azure, and Google Cloud can be very helpful in offering virtual machine access. Cloud solutions can help scale your resources and reduce project delivery delays.
+Steps to build and train your custom LLM
+To achieve an amazing understanding capability, your LLM will have to go through a rigorous vetting process. For the beneficial use of LLMs for customer service automation and to get accurate responses, it is important for you to understand how to build and train your own large language model. Training and building LLMs from scratch involves the following steps:
+
+    Step 1: Process the data
+    Download raw and unfiltered data and parallelize the dataset builder process. Then, the data will be repartitioned and rewritten for downstream processing. For advanced data processing that requires several iterations, you can use Databricks to build your pipeline. After downloading the data, deduplicate it and fix the encoding errors.
+    
+    Step 2: Tokenize the data
+    Tokenization is the most important step while building LLMs, as you will need it in model training and data pipeline. Before going into tokenization, you need to train the custom vocabulary with the help of a subsample of the data used for model training. After training your custom vocabulary, you can tokenize your data. It will develop your model’s understanding and code generation capability.
+    
+    Step 3: Train your model
+    To establish the parameters of your LLM, compare the model size, inference time, context window, and memory footprint. Large LLMs will demand expensive computational requirements for inference and training. You need to decide from various training objectives and model configurations and then launch the training runs on multi-node GPU clusters.
+    
+    Step 4: Test your model
+    To evaluate your model, use it to generate a block of code given a function signature and docstring. Run the test case in the function to understand whether the code block is functioning as per your expectations. Use frameworks like Hugging Face, PyTorch, or Open AI’s fine-tuning API to train models using large-scale training techniques.
+    
+    Step 5: Deploy your model
+    After training and testing your LLM, the next step is to deploy it into production. Then you can autoscale your LLM to suit the requirements of your Kubernetes infrastructure. Before rolling out the model and making it live for the users, it is better to test it yourself and get a sense of how it will perform.
+    
+    Step 6: Gather feedback
+    Monitor the performance of LLM for metrics like request latency and GPU utilization. Record the acceptance rate of code generated by the LLM to gain a quantitative understanding of the results. Note any changes in the underlying data sources, model training objectives, and server architecture.
+    
+ Best Large language models in 2025
+As of 2025, these large language models are at the top of the industry due to their outstanding abilities in natural language processing, code synthesis, and scalability.
+    1) GPT
+    GPT-4o is a generative pre-trained transformer model capable of processing images and audio. It was developed by OpenAI, which created the first reasoning model and is also planning to launch a more powerful version this year. GPT-4o is used actively by companies such as Microsoft, Dropbox, Stripe, etc.
+    
+    2) Deepseek
+    The DeepSeek-R1 model of a Chinese AI company called DeepSeek was trained under a high volume of reinforcement learning, focusing specifically on reasoning capabilities. It is excellent at managing long-form content and demonstrates better results for mathematical questions and code generation tasks than other LLMs.
+    
+    3) Qwen
+    Alibaba developed the Qwen 2.5 model to meet the needs of enterprises and businesses. It is an LLM for multilingual support systems that covers around 29 languages and is excellent at code generation and debugging. Features for video generation that help create educational content for students, educators, and businesses make it one of the best large language models in 2025.
+
