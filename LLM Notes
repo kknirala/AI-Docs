@@ -18,3 +18,33 @@
     Limitations of LLMs:
     1. Knowledge Cutoff: LLMs can only generate information up to their training data’s scope.
     2. Hallucinations…
+5. 10 Essential Topics to Master LLMs and Generative AI
+     1. LLM Basics
+    First and foremost, you need to understand the basics of generative AI and LLMs, such as key terminology, uses, potential issues, and primary frameworks. Before diving into LLMs and gen AI, you should know what the data is trained on and any potential biases/issues that there may be with the data so you can plan algorithms around it. You should also know exactly how big LLMs can be, how computationally expensive training will be, and the differences between training LLMs and machine learning models. Finally, know what you want it to do in the end. Don’t go in aimlessly expecting it to do everything. Do you want a chatbot, a Q&A system, or an image generator? Plan accordingly!
+    
+    2. Prompt Engineering
+    Another buzzword you’ve likely heard of lately, prompt engineering means designing inputs for LLMs once they’re developed. Example: If you want an LLM to create social media copy for a marketing campaign, and the prompt “Create a Twitter post” is too vague, you can engineer it to be more specific, such as “Create a Twitter post geared towards millennials and keep it snappy.” This is where the art of artificial intelligence comes into play, and has even become its own job. You can even fine-tune prompts to get exactly what you want.
+    
+    3. Prompt Engineering with OpenAI
+    As a leading figure in LLMs and generative AI, it’s important to know how to use prompt engineering specifically with OpenAI tools, as you’ll likely be using them at some point in your career. To get started, make sure that you’re using the latest version of the OpenAI API and/or whatever plugins and third-party tools you’re using. Some organizations use their own tools, such as Microsoft’s Azure OpenAI GPT Models, so make sure that you’re following their directions properly as well.
+    
+    4. Question-Answering
+    Question-answering (QA) LLMs are a type of large language model that has been trained specifically to answer questions. They are trained on massive datasets of text and code, including text from books, articles, and code repositories. This allows them to learn the statistical relationships between words and phrases, and to understand the meaning of questions and answers. This is likely something you’ll be working on, and think of it like a more advanced (aka actually helpful!) chatbot.
+    
+    5. Fine-Tuning
+    Fine-tuning can be used to improve the performance of an LLM on a variety of tasks, including text generation, translation, summarization, and question-answering. It is also used to customize LLMs for specific applications, such as customer service chatbots or medical diagnosis systems. There are a number of different ways to fine-tune an LLM. One common approach is to use supervised learning. This involves providing the LLM with a dataset of labeled data, where each data point is a pair of input and output. The LLM learns to map the input to the output by minimizing a loss function.
+    
+    6. Embedding Models
+    Embedding models can be very useful when mapping natural language to vectors that are used by downstream LLMs. When it comes to fine-tuning a pipeline, since pipelines often include multiple models, several different models can be fine-tuned to better account for the nuances in your data. LLMs may leverage pre-trained word embeddings as part of their input or initialization, allowing them to benefit from the semantic information captured by the embedding models. The embedding models provide a foundation for understanding the meanings and relationships of individual words, which LLMs can build upon to generate coherent and contextually appropriate text.
+    
+    7. LangChain
+    LangChain can be used to architect complex LLM pipelines by chaining multiple models together. However, since these models are incredibly flexible in what they can do (classification, text generation, code generation, etc.) we can integrate them with other systems — for example, we have a model generate the code to make an API call, write and execute data science code, query tabular data, the list goes on. We can use `Agents` to interact with all these external systems to execute actions dictated by LLMs. The fundamental idea of an Agent is to let the LLM choose an action or sequence of actions to take, given a various set of tools.
+    
+    8. Parameter Efficiency/Tuning
+    Parameter-efficient fine-tuning is a technique in machine learning, particularly in the context of large neural language models like GPT or BERT, aimed at adapting these pre-trained models to specific tasks with minimal additional parameter overhead. Instead of fine-tuning the entire massive model, parameter-efficient fine-tuning adds a relatively small number of task-specific parameters or “adapters” to the pre-trained model. These adapters are compact, task-specific modules that are inserted into the model architecture, allowing it to adapt to new tasks without drastically increasing the model’s size.
+    
+    9. RAG
+    RAG — aka Retrieval augmented generation — works by first using a retrieval-based model to retrieve relevant documents from a knowledge base, given the input text. The retrieved documents are then linked together with the input text and fed to a generative model. The generative model then generates the output text, taking into account both the input text and the retrieved documents.
+    
+    10 Natural Language Processing
+    Last but certainly not least, you need to know quite a bit about natural language processing, aka NLP. LLMs and generative AI aren’t really a field of their own, as they’re both built on NLP principles LLMs are trained on massive datasets of text and code, and they use NLP techniques to understand the meaning of the data and to generate new text. If you don’t have a good understanding of NLP, it will be difficult to understand how LLMs work and how to use them effectively.
