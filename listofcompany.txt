@@ -1,0 +1,199 @@
+# 🌍 100 Remote / Hybrid Friendly Companies (2026)
+
+## 🧠 Tier 1: Big Tech / High Paying (Target 50+ LPA)
+
+1. Microsoft
+2. Google
+3. Amazon
+4. Meta
+5. Apple
+6. Netflix
+7. Uber
+8. Airbnb
+9. Stripe
+10. Shopify
+11. Atlassian
+12. Salesforce
+13. Adobe
+14. Nvidia
+15. Oracle
+16. SAP
+17. ServiceNow
+18. Snowflake
+19. Databricks
+20. Palantir
+
+---
+
+## 🤖 Tier 2: AI / GenAI / High Growth
+
+21. OpenAI
+22. Anthropic
+23. Cohere
+24. Hugging Face
+25. Stability AI
+26. Scale AI
+27. Adept AI
+28. Perplexity AI
+29. Character AI
+30. Midjourney
+
+---
+
+## ☁️ Tier 3: Cloud / Dev Tools (Remote Friendly)
+
+31. GitHub
+32. GitLab (remote-first)
+33. HashiCorp
+34. Cloudflare
+35. Vercel
+36. Netlify
+37. DigitalOcean
+38. Elastic
+39. MongoDB
+40. Redis
+
+---
+
+## 💳 Tier 4: Fintech (High Salary + Remote)
+
+41. PayPal
+42. Visa
+43. Mastercard
+44. Revolut
+45. Wise
+46. Coinbase
+47. Robinhood
+48. Stripe (again high priority)
+49. Brex
+50. Plaid
+
+---
+
+## 🏥 Tier 5: Healthcare / Enterprise Remote Leaders
+
+51. Elevance Health
+52. UnitedHealth Group
+53. Centene Corporation
+54. TELUS
+55. Thermo Fisher Scientific
+56. Medtronic
+57. Johnson & Johnson
+58. GE Healthcare
+59. Siemens Healthineers
+60. CVS Health
+
+---
+
+## 🏢 Tier 6: Consulting / IT (Hybrid + Remote)
+
+61. Accenture
+62. Cognizant
+63. Capgemini
+64. Deloitte
+65. PwC
+66. EY
+67. KPMG
+68. Infosys
+69. TCS
+70. Wipro
+
+---
+
+## 🚀 Tier 7: Product / SaaS Companies
+
+71. HubSpot
+72. Zoom
+73. Slack (Salesforce)
+74. Dropbox
+75. Notion
+76. Asana
+77. Monday.com
+78. Canva
+79. Figma
+80. Twilio
+
+---
+
+## 🌐 Tier 8: Remote-First / Flexible Culture
+
+81. GitLab (fully remote)
+82. Automattic (WordPress)
+83. Basecamp
+84. Zapier
+85. Toptal
+86. Deel
+87. Remote.com
+88. Oyster HR
+89. Andela
+90. Doist
+
+---
+
+## 🧪 Tier 9: Engineering / Defense / Infra (Hybrid)
+
+91. Lockheed Martin
+92. General Dynamics
+93. Boeing
+94. Honeywell
+95. Siemens
+96. General Electric
+97. IBM
+98. Intel
+99. Qualcomm
+100. Cisco
+
+---
+
+# 🎯 HOW TO TARGET (IMPORTANT)
+
+## 🎯 Focus on these for 50+ LPA:
+- Tier 1 + Tier 2 + Tier 3
+
+## 💡 Best Remote Culture:
+- GitLab
+- Atlassian
+- Shopify
+- Automattic
+- Zapier
+
+## ⚠️ Hybrid Heavy (Be careful):
+- Consulting (Accenture, TCS, Wipro)
+- Some Big Tech teams
+
+---
+
+# 🚀 JOB SEARCH STRATEGY
+
+## Use filters:
+- "Remote" + "GenAI" + "Staff / Senior"
+- Platforms:
+  - LinkedIn
+  - Wellfound (AngelList)
+  - Company career pages
+
+---
+
+# 🔥 PRO TIP (VERY IMPORTANT)
+
+👉 Don’t apply randomly to all 100
+
+Instead:
+- Pick **20 target companies**
+- Customize resume per company
+- Reach out to employees for referral
+
+---
+
+# 🎯 FINAL TARGET
+
+Role:
+- Senior GenAI Engineer
+- AI Architect
+- Staff Engineer (AI)
+
+Salary:
+- 50–65 LPA (India)
+- $150K+ (Remote global)
+
+---
