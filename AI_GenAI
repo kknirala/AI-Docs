@@ -40,5 +40,30 @@
     Conversation Memory: ChatGPT’s ability to recall previous messages in a long chat enables it to "remember" human critiques and improve the output on the second or third attempt.
     Memory Feature: ChatGPT can directly save information across different chat sessions, allowing it to apply feedback permanently to all future interactions. 
 -------------
-6. 
- 
+6. What Makes an Agent?
+  Planner: Breaks down a high-level goal into actionable sub-tasks.
+  Executor: Uses tools, APIs, or LLMs to complete those tasks.
+  Memory: Stores context, history, and results for continuity.
+  Tooling: Connects to external systems like APIs, databases, or internal services.
+----------------------
+7. Frameworks Worth Exploring
+  LangGraph: For building stateful agent workflows
+  AutoGen: Microsoft’s framework for multi-agent collaboration
+  CrewAI: Lightweight orchestration for agent teams
+  Semantic Kernel: Enterprise-grade orchestration with memory and skills
+  Strands: Open-source SDK from AWS that simplifies building AI agents by using a “model-driven” approach
+---------------------
+8. The Foundations of GenAI Learning — Zero-Shot and Few-Shot Learning
+  - Zero-shot learning (ZSL) is a technique that allows models to do this, so they can identify and classify new concepts without any labeled examples during training and  handle tasks they weren't specifically trained for.
+  - Few-shot learning (FSL) is a subfield of machine learning where models learn to recognize patterns and make predictions based on a very small number of training examples. This contrasts with traditional supervised learning, which often requires vast amounts of labeled data for effective training.
+  | Aspect | Zero-Shot Learning (ZSL) | Few-Shot Learning (FSL) |
+  |--------|--------------------------|--------------------------|
+  | What It Does | Handles new tasks without labeled training data. | Learns new tasks from a few labeled examples. |
+  | How It Works | Infers new categories by mapping descriptions to known knowledge. | Learns patterns from a few examples to classify new instances. |
+  | Data Needed | Requires zero labeled examples for new tasks. | Requires 1–5 labeled examples for new tasks. |
+  | Prior Knowledge | Relies on learned relationships between concepts and descriptions. | Uses prior knowledge but also updates based on the provided examples. |
+  | Adaptability | Can generalize to completely new tasks but may be less precise. | Adapts quickly to specific new tasks and is usually more accurate. |
+  | Example 1 | **Spam Detection:** Identifies spam using definitions (e.g., "emails with suspicious links") without prior labeled spam data. | **Customer Support Intent Detection:** Learns to detect a new intent (e.g., "cancel subscription") after seeing a few labeled conversations. |
+  | Example 2 | **Text Classification in Sentiment Analysis:** Determines sentiment (e.g., "satisfied," "angry") using only definitions. | **Document Type Identification:** Learns to classify new document types (e.g., "purchase orders") after seeing a few examples. |
+----------------
+9. 
