@@ -1,0 +1,241 @@
+# 🚀 AI Architect Study Plan (12–16 Weeks)
+Background: MERN + Python + AI + RAG + Agents  
+Goal: Become AI Architect (System Design + Production Skills)
+
+---
+
+# 🧠 PHASE 1: Foundations (Week 1–3)
+
+## 🎯 Goal:
+Understand LLMs, embeddings, and core RAG concepts
+
+## 📚 Topics:
+- LLM basics (tokens, context window)
+- Embeddings + cosine similarity
+- Vector search (FAISS basics)
+- Prompt engineering fundamentals
+
+## 🛠️ Project:
+Build Basic RAG:
+PDF → Chunk → Embedding → FAISS → Query → Retrieve → LLM
+
+## 📅 Plan:
+
+### Week 1:
+- Day 1–2: Embeddings + similarity search
+- Day 3–4: Build basic RAG pipeline
+- Day 5–6: Improve chunking (size + overlap)
+- Day 7: Write README + architecture diagram
+
+### Week 2:
+- Day 8–9: Query rewriting (multi-query)
+- Day 10–11: Add re-ranking
+- Day 12: Add source citations
+- Day 13: Build simple UI (React)
+- Day 14: Deploy app
+
+### Week 3:
+- Improve code structure
+- Add logging + error handling
+- Test edge cases
+
+---
+
+# 🏗️ PHASE 2: Advanced RAG (Week 4–7)
+
+## 🎯 Goal:
+Think like a retrieval system architect
+
+## 📚 Topics:
+- Hybrid search (BM25 + vector)
+- Re-ranking models
+- Metadata filtering
+- Query expansion (HyDE)
+- Evaluation metrics (precision, recall)
+
+## 🛠️ Project:
+Production-Grade RAG System
+
+## Features:
+- Multi-query retrieval
+- Hybrid search
+- Re-ranking
+- Source grounding
+- Caching layer
+- Evaluation pipeline
+
+## 📅 Plan:
+
+### Week 4:
+- Implement hybrid search
+- Add metadata filtering
+
+### Week 5:
+- Add re-ranking (cross-encoder)
+- Improve retrieval accuracy
+
+### Week 6:
+- Build evaluation pipeline
+- Measure precision/recall
+
+### Week 7:
+- Optimize latency + cost
+- Deploy production version
+
+---
+
+# 🤖 PHASE 3: Agents & Agentic RAG (Week 8–11)
+
+## 🎯 Goal:
+Build decision-making AI systems
+
+## 📚 Topics:
+- ReAct pattern (Reason + Act)
+- Plan-and-execute agents
+- Tool usage (API, DB)
+- Memory (short + long term)
+- Reflection loops
+- Multi-agent systems
+
+## 🛠️ Project:
+Agentic AI System
+
+## Features:
+- Tool usage (API calls)
+- Multi-step reasoning
+- Memory support
+- Self-correction loop
+
+## 📅 Plan:
+
+### Week 8:
+- Build simple agent (ReAct)
+- Add tool usage
+
+### Week 9:
+- Add memory (conversation + vector)
+- Add multi-step reasoning
+
+### Week 10:
+- Add reflection loop (self-correct)
+- Improve decision-making
+
+### Week 11:
+- Build Agentic RAG (Agent + RAG combined)
+- Deploy system
+
+---
+
+# 🧠 PHASE 4: Architect Thinking (Week 12–16)
+
+## 🎯 Goal:
+Design real-world AI systems
+
+## 📚 Topics:
+- System design (end-to-end)
+- RAG vs fine-tuning vs agents
+- Trade-offs (latency, cost, accuracy)
+- Observability (logs, tracing)
+- Guardrails + safety
+- Versioning
+
+## 🛠️ Final Project:
+Enterprise AI Assistant
+
+## Features:
+- Agent + RAG hybrid
+- Multi-document ingestion
+- Role-based responses
+- Tool integration
+- Evaluation dashboard
+
+## 📅 Plan:
+
+### Week 12:
+- Design system architecture
+- Define components
+
+### Week 13:
+- Build backend (FastAPI / Node)
+- Integrate RAG + Agent
+
+### Week 14:
+- Add memory + tools
+- Improve workflows
+
+### Week 15:
+- Add evaluation + monitoring
+- Optimize system
+
+### Week 16:
+- Deploy full system
+- Prepare documentation
+
+---
+
+# 🎯 INTERVIEW PREPARATION (Parallel)
+
+## Practice Questions:
+
+### System Design:
+- Design enterprise RAG system
+- Design AI customer support agent
+- Design document assistant
+
+### Deep Concepts:
+- How to reduce hallucination?
+- How to improve retrieval?
+- When to use agents?
+
+### Trade-offs:
+- RAG vs fine-tuning
+- Agent vs workflow
+
+---
+
+# 🧪 PORTFOLIO CHECKLIST
+
+- ✅ Basic RAG system
+- ✅ Advanced RAG system
+- ✅ Agent system
+- ✅ Agentic RAG system
+- ✅ Deployed applications
+- ✅ Clean GitHub repos
+- ✅ Architecture documentation
+
+---
+
+# 🧠 DAILY SCHEDULE
+
+Weekdays:
+- 1 hr learning
+- 1–2 hr building
+
+Weekends:
+- 5–6 hrs project work
+
+---
+
+# ⚠️ RULES
+
+❌ Don’t:
+- Watch tutorials endlessly
+- Copy code blindly
+
+✅ Do:
+- Build from scratch
+- Break systems
+- Improve iteratively
+- Explain everything clearly
+
+---
+
+# 🔥 FINAL GOAL
+
+You should be able to:
+- Design AI systems end-to-end
+- Explain trade-offs clearly
+- Build production-ready architectures
+- Crack AI Architect interviews
+
+---
