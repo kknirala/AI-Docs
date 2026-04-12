@@ -1,0 +1,305 @@
+# 🚀 2–3 Month Job Switch Plan (Target: 50+ LPA AI Architect / GenAI Engineer)
+
+## 👤 Current Profile
+- Role: Senior Software Engineer @ :contentReference[oaicite:0]{index=0} (ISL)
+- Experience: 9.5 years
+- Skills: MERN, Python, AI, RAG, Agentic AI, LangChain
+- Current CTC: 35 LPA
+- Target CTC: 50–65 LPA
+
+---
+
+# 🎯 STRATEGY (IMPORTANT)
+
+## ❗ Reality:
+You don’t need to “learn everything”
+You need to:
+- Position yourself as **AI System Designer**
+- Show **production-level projects**
+- Speak **architect language in interviews**
+
+---
+
+# 📅 TIMELINE OVERVIEW (10–12 WEEKS)
+
+| Phase | Focus |
+|------|------|
+| Week 1–2 | Resume + 1 Strong RAG Project |
+| Week 3–5 | Agent + Agentic RAG Project |
+| Week 6–8 | System Design + Mock Interviews |
+| Week 9–12 | Interviews + Offers |
+
+---
+
+# 🧠 PHASE 1: POSITIONING + STRONG RAG (Week 1–2)
+
+## 🎯 Goal:
+Create **1 standout project + strong resume**
+
+---
+
+## 🛠️ Project 1: Production RAG System
+
+### Features:
+- Hybrid search (BM25 + vector)
+- Re-ranking
+- Query rewriting
+- Source citations
+- Caching
+- Evaluation metrics
+
+---
+
+## 🧱 Stack:
+- Python (FastAPI)
+- Vector DB (FAISS / Pinecone)
+- React (UI)
+- Redis (cache)
+
+---
+
+## 📌 Output:
+- Deployed app
+- Clean GitHub repo
+- Architecture diagram
+
+---
+
+## 📄 Resume Changes:
+
+### Replace:
+❌ “Worked on AI features”
+
+### With:
+✅ “Designed and deployed a production-grade RAG system improving retrieval accuracy by X% using hybrid search and re-ranking”
+
+---
+
+# 🤖 PHASE 2: AGENTS + DIFFERENTIATOR (Week 3–5)
+
+## 🎯 Goal:
+Stand out → Most candidates don’t have this
+
+---
+
+## 🛠️ Project 2: Agentic AI System
+
+### Example:
+**AI Research / Enterprise Assistant**
+
+### Features:
+- Agent planning (ReAct)
+- Tool usage (API + DB)
+- Memory (short + vector)
+- Reflection loop
+- RAG integration
+
+---
+
+## 🔥 Add Differentiators:
+- Multi-step reasoning
+- Error recovery
+- Tool selection logic
+
+---
+
+## 📌 Output:
+- Live demo
+- System design doc
+
+---
+
+## 🎤 Interview Positioning:
+> “I built an agentic system that dynamically decides when to retrieve, use tools, or iterate responses.”
+
+---
+
+# 🧠 PHASE 3: SYSTEM DESIGN (Week 6–8)
+
+## 🎯 Goal:
+Clear Microsoft-level design rounds
+
+---
+
+## 📚 Topics:
+- Scaling RAG systems
+- Multi-agent systems
+- Latency optimization
+- Cost control
+- Observability
+
+---
+
+## 🧠 Practice Questions:
+
+### MUST:
+- Design enterprise RAG system
+- Design AI chatbot at scale
+- Design document intelligence system
+
+---
+
+## 🧩 Learn to Answer Like:
+
+### Structure:
+1. Requirements
+2. Architecture
+3. Components
+4. Trade-offs
+5. Scaling
+6. Failure handling
+
+---
+
+# 🧪 PHASE 4: INTERVIEW EXECUTION (Week 9–12)
+
+## 🎯 Goal:
+Convert interviews → Offers
+
+---
+
+## 🧠 DSA (Daily 30 min ONLY)
+Focus:
+- Arrays
+- Strings
+- Hashing
+- Sliding window
+
+Use:
+- :contentReference[oaicite:1]{index=1}
+
+---
+
+## 🎤 Mock Interviews:
+- 3–5 system design mocks
+- 3–5 AI deep-dive mocks
+
+---
+
+## 🎯 Apply To:
+
+### Tier 1:
+- :contentReference[oaicite:2]{index=2}  
+- :contentReference[oaicite:3]{index=3}  
+- :contentReference[oaicite:4]{index=4}  
+
+### Tier 2 (High Pay India):
+- :contentReference[oaicite:5]{index=5}  
+- :contentReference[oaicite:6]{index=6}  
+- :contentReference[oaicite:7]{index=7}  
+- :contentReference[oaicite:8]{index=8}  
+
+### AI-Focused:
+- :contentReference[oaicite:9]{index=9}  
+- :contentReference[oaicite:10]{index=10}  
+
+---
+
+# 🧩 PORTFOLIO (NON-NEGOTIABLE)
+
+## You MUST show:
+
+### 1. RAG System
+- Hybrid + re-ranking + eval
+
+### 2. Agent System
+- Tool use + reasoning
+
+### 3. Agentic RAG
+- Combined system
+
+### 4. Deployment
+- Live apps
+
+---
+
+# 📊 DAILY SCHEDULE (REALISTIC)
+
+## Weekdays:
+- 2–3 hrs:
+  - 1 hr system design / learning
+  - 2 hr building
+
+## Weekends:
+- 6–8 hrs:
+  - Projects + mocks
+
+---
+
+# 🧠 WHAT INTERVIEWERS LOOK FOR
+
+## You must demonstrate:
+
+### 1. System Thinking
+- Not just “I used LangChain”
+- But:
+  > “I designed retrieval pipeline with trade-offs”
+
+---
+
+### 2. Trade-offs
+- Latency vs accuracy
+- Cost vs quality
+- Agent vs RAG
+
+---
+
+### 3. Ownership
+- End-to-end system
+- Deployment + monitoring
+
+---
+
+# 🚨 COMMON MISTAKES (AVOID)
+
+❌ Overusing buzzwords  
+❌ No real projects  
+❌ Only tutorial knowledge  
+❌ Weak system design  
+❌ No metrics / impact  
+
+---
+
+# 💰 SALARY NEGOTIATION STRATEGY
+
+## Target:
+- Ask: 60–70 LPA
+- Expect: 50–65 LPA
+
+## Strategy:
+- Use competing offers
+- Highlight niche skill: **Agentic AI + RAG**
+
+---
+
+# 🔥 FINAL POSITIONING STATEMENT
+
+Use this in interviews:
+
+> “I specialize in designing production-grade GenAI systems using RAG and agentic architectures, focusing on scalability, cost optimization, and real-world reliability.”
+
+---
+
+# 🧭 FINAL EXECUTION PLAN
+
+## Week 1–2:
+- Build strong RAG + update resume
+
+## Week 3–5:
+- Build Agent system + deploy
+
+## Week 6–8:
+- System design + mocks
+
+## Week 9+:
+- Apply + crack interviews
+
+---
+
+# 🎯 FINAL GOAL
+
+Offer ≥ 50 LPA  
+Role: AI Architect / Senior GenAI Engineer  
+Company: Product-based / AI-first  
+
+---
